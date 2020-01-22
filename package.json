@@ -1,0 +1,19 @@
+{
+  "name": "devline",
+  "version": "1.0.0",
+  "description": "Pojeto Dev Line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroTChaves/devline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauroTChaves/devline/issues"
+  },
+  "homepage": "https://github.com/MauroTChaves/devline#readme"
+}
