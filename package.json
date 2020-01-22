@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MauroTChaves/devline/issues"
   },
-  "homepage": "https://github.com/MauroTChaves/devline#readme"
+  "homepage": "https://github.com/MauroTChaves/devline#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
 }
