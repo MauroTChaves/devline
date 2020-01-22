@@ -6,17 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MauroTChaves/devline.git"
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit":"lint-staged"
+    }
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MauroTChaves/devline/issues"
-  },
-  "homepage": "https://github.com/MauroTChaves/devline#readme",
   "devDependencies": {
+    "husky": "^4.2.0",
+    "lint-staged": "^10.0.2",
     "standard": "^14.3.1"
   }
 }
